@@ -1,0 +1,20 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+
+/* .fi-topbar ul.me-4 li a{
+    @apply py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-gray-800 font-medium text-gray-800 focus:outline-none dark:border-neutral-200 dark:text-neutral-200;
+}
+
+.fi-topbar nav{
+    @apply bg-blue-300 ;
+} */
+
+.fi-topbar-item-button{
+    @apply bg-blue-500 text-white ;
+}
+.fi-topbar-item-button:hover{
+    @apply hover:bg-blue-700 ;
+}
+
